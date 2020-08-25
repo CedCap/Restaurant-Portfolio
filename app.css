@@ -131,6 +131,27 @@ section {
   height: 400px;
 }
 
+.menu-preview-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.menu-preview-2 img {
+  width: 500px;
+  height: 700px;
+}
+
+.menu-preview-2 .text-container {
+  margin-top: 4rem;
+  margin-right: 5rem;
+  width: 400px;
+  height: 400px;
+}
+
 .border {
   margin-top: 1rem;
   border: 1px solid black;
@@ -153,5 +174,12 @@ section {
   margin-bottom: 3px;
   width: 100%;
   border-bottom: 1px dotted black;
+}
+
+.gallery-preview {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
 /*# sourceMappingURL=app.css.map */

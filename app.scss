@@ -111,6 +111,22 @@ section {
   }
 }
 
+.menu-preview-2 {
+  display: flex;
+  justify-content: space-evenly;
+  img {
+    width: 500px;
+    height: 700px;
+  }
+
+  .text-container {
+    margin-top: 4rem;
+    margin-right: 5rem;
+    width: 400px;
+    height: 400px;
+  }
+}
+
 .border {
   margin-top: 1rem;
   border: 1px solid black;
@@ -128,4 +144,9 @@ section {
     width: 100%;
     border-bottom: 1px dotted black;
   }
+}
+
+.gallery-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
